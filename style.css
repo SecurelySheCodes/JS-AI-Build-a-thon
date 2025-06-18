@@ -1,0 +1,15 @@
+/* Style for the product images */
+.product img {
+    border: 2px solid #ccc;   /* Adds a soft border around the image */
+    border-radius: 5px;      /* Slightly rounds the corners of the images */
+    width: 150px;            /* Ensures the width is consistent */
+    height: 150px;           /* Makes the images square and same height */
+    object-fit: cover;       /* Ensures the image aspect ratio doesn't get distorted */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adds smooth hover effect */
+}
+
+/* Hover effect for product images */
+.product img:hover {
+    transform: scale(1.1);  /* Slight zoom-in effect when hovered */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow to enhance focus */
+}
